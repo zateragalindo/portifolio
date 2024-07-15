@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --bg-portifolio: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-size: 1.6rem;
+
+  background-color: var(--bg-portifolio);
+  font-family: "Poppins", sans-serif;
+}
+
+.page {
+  width: 90%;
+  height: 100vh;
+  margin-top: -10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+}
+
+section {
+  margin-top: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
